@@ -65,6 +65,9 @@
     gap: 10px;
   }
 }
+#about-us, #our, #faq-main{
+  scroll-margin-top: 136.2px
+}
 /* about us styling*/
 .about-us {
   display: flex;
