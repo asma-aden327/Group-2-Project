@@ -8,6 +8,9 @@ body {
   padding: 0;
   text-align: center;
   padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .header {
   display: flex;
@@ -298,20 +301,15 @@ audio {
             background: #ff3300;
             transform: rotate(-5deg) scale(1.1);
         }
-
 /* Faqs styling */
-#faq-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
 /* FAQ Section Background (Light Color) */
 #faq-section {
   background-color: #ffffff; /* White background for FAQ for good contrast */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+   margin: 20px auto; 
 }
 
 /* FAQ Item Styling */
@@ -333,8 +331,6 @@ audio {
   color: #555; /* Dark gray color for the answers */
   line-height: 1.6;
 }
-
-
 /* Style for footer */
 
 .footer {
