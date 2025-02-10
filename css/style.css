@@ -163,6 +163,41 @@ video,
 audio {
   margin-top: 20px;
 }
+/* Faqs styling */
+#faq-main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* FAQ Section Background (Light Color) */
+#faq-section {
+  background-color: #ffffff; /* White background for FAQ for good contrast */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Item Styling */
+.faq-item {
+  margin-bottom: 20px;
+}
+
+/* FAQ Question Styling */
+.faq-question {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #007BFF; /* Blue color for the questions */
+  margin-bottom: 10px;
+}
+
+/* FAQ Answer Styling */
+.faq-answer {
+  font-size: 1em;
+  color: #555; /* Dark gray color for the answers */
+  line-height: 1.6;
+}
+
 
 /* Style for footer */
 
