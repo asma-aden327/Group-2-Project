@@ -1,5 +1,17 @@
 /* header styling */
-
+#about-us, #our, #faq-main{
+  scroll-margin-top: 136.2px
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -160,7 +172,168 @@ video,
 audio {
   margin-top: 20px;
 }
+/* product */
+  .banner img{
+    width:  100%;
+    
+    
+}
 
+.pro {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  
+}
+.well{
+  text-align: center;
+}
+.helth{
+  text-align: center;
+  
+}
+.best{
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px; /* Reduced gap between items */
+  
+}
+.table{
+    width: 80%;
+    margin: 0 auto;
+     border-collapse: collapse; 
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #008080
+}
+.product-1 {
+  margin-top: 10px;
+  background: antiquewhite;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  margin-left: 2px;
+}
+.product-2 {
+  margin-top: 10px;
+  background: aquamarine;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  margin-left: 2px;
+}
+.product-3 {
+  margin-top: 10px;
+  background: gray;
+  border: 1px solid gold;
+  border-radius: 10px;
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  margin-left: 2px;
+  color: white;
+}
+.product-4 {
+  margin-top: 10px;
+  background: greenyellow;
+  color: black;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+  margin-left: 2px;
+}
+
+.product-image {
+  width: 80%;
+  height: 300px; 
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+ transition: background 0.3s ease, transform 0.2s ease;
+}
+.product-image:hover{
+  transform: scale(1.05);
+}
+.product-title {
+  font-size: 1.1rem; 
+  color: #4caf50;
+  margin: 8px 0;
+}
+
+.product-description {
+  font-size: 0.9rem; /* Reduced font size */
+  margin-bottom: 8px;
+}
+
+.product-price {
+  font-weight: bold;
+  margin: 8px 0;
+  color: black;
+}
+
+.product-price s {
+  color: red;
+}
+
+.buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background:rgba(38, 128, 0, 0.873);
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+        .buy-btn:hover {
+            background: #ff3300;
+            transform: rotate(-5deg) scale(1.1);
+        }
+/* Faqs styling */
+/* FAQ Section Background (Light Color) */
+#faq-section {
+  background-color: #ffffff; /* White background for FAQ for good contrast */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+   margin: 20px auto; 
+}
+
+/* FAQ Item Styling */
+.faq-item {
+  margin-bottom: 20px;
+}
+
+/* FAQ Question Styling */
+.faq-question {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #007BFF; /* Blue color for the questions */
+  margin-bottom: 10px;
+}
+
+/* FAQ Answer Styling */
+.faq-answer {
+  font-size: 1em;
+  color: #555; /* Dark gray color for the answers */
+  line-height: 1.6;
+}
 /* Style for footer */
 
 .footer {
